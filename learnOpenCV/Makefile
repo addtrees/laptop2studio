@@ -48,10 +48,10 @@ RM = /home/shen/Downloads/CLion/clion-2018.2.5/bin/cmake/linux/bin/cmake -E remo
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/shen/CLionProjects/learnOpenCV
+CMAKE_SOURCE_DIR = /home/shen/CLionProjects/learnopencv/learnOpenCV
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/shen/CLionProjects/learnOpenCV
+CMAKE_BINARY_DIR = /home/shen/CLionProjects/learnopencv/learnOpenCV
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/shen/CLionProjects/learnOpenCV/CMakeFiles /home/shen/CLionProjects/learnOpenCV/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shen/CLionProjects/learnopencv/learnOpenCV/CMakeFiles /home/shen/CLionProjects/learnopencv/learnOpenCV/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/shen/CLionProjects/learnOpenCV/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shen/CLionProjects/learnopencv/learnOpenCV/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,6 +123,33 @@ learnOpenCV/fast:
 	$(MAKE) -f CMakeFiles/learnOpenCV.dir/build.make CMakeFiles/learnOpenCV.dir/build
 .PHONY : learnOpenCV/fast
 
+HighGui/HighGui.o: HighGui/HighGui.cpp.o
+
+.PHONY : HighGui/HighGui.o
+
+# target to build an object file
+HighGui/HighGui.cpp.o:
+	$(MAKE) -f CMakeFiles/learnOpenCV.dir/build.make CMakeFiles/learnOpenCV.dir/HighGui/HighGui.cpp.o
+.PHONY : HighGui/HighGui.cpp.o
+
+HighGui/HighGui.i: HighGui/HighGui.cpp.i
+
+.PHONY : HighGui/HighGui.i
+
+# target to preprocess a source file
+HighGui/HighGui.cpp.i:
+	$(MAKE) -f CMakeFiles/learnOpenCV.dir/build.make CMakeFiles/learnOpenCV.dir/HighGui/HighGui.cpp.i
+.PHONY : HighGui/HighGui.cpp.i
+
+HighGui/HighGui.s: HighGui/HighGui.cpp.s
+
+.PHONY : HighGui/HighGui.s
+
+# target to generate assembly for a file
+HighGui/HighGui.cpp.s:
+	$(MAKE) -f CMakeFiles/learnOpenCV.dir/build.make CMakeFiles/learnOpenCV.dir/HighGui/HighGui.cpp.s
+.PHONY : HighGui/HighGui.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -150,6 +177,60 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/learnOpenCV.dir/build.make CMakeFiles/learnOpenCV.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+resource/mouseoperation/mouseoperation.o: resource/mouseoperation/mouseoperation.cpp.o
+
+.PHONY : resource/mouseoperation/mouseoperation.o
+
+# target to build an object file
+resource/mouseoperation/mouseoperation.cpp.o:
+	$(MAKE) -f CMakeFiles/learnOpenCV.dir/build.make CMakeFiles/learnOpenCV.dir/resource/mouseoperation/mouseoperation.cpp.o
+.PHONY : resource/mouseoperation/mouseoperation.cpp.o
+
+resource/mouseoperation/mouseoperation.i: resource/mouseoperation/mouseoperation.cpp.i
+
+.PHONY : resource/mouseoperation/mouseoperation.i
+
+# target to preprocess a source file
+resource/mouseoperation/mouseoperation.cpp.i:
+	$(MAKE) -f CMakeFiles/learnOpenCV.dir/build.make CMakeFiles/learnOpenCV.dir/resource/mouseoperation/mouseoperation.cpp.i
+.PHONY : resource/mouseoperation/mouseoperation.cpp.i
+
+resource/mouseoperation/mouseoperation.s: resource/mouseoperation/mouseoperation.cpp.s
+
+.PHONY : resource/mouseoperation/mouseoperation.s
+
+# target to generate assembly for a file
+resource/mouseoperation/mouseoperation.cpp.s:
+	$(MAKE) -f CMakeFiles/learnOpenCV.dir/build.make CMakeFiles/learnOpenCV.dir/resource/mouseoperation/mouseoperation.cpp.s
+.PHONY : resource/mouseoperation/mouseoperation.cpp.s
+
+resource/sliderbar/sliderbar.o: resource/sliderbar/sliderbar.cpp.o
+
+.PHONY : resource/sliderbar/sliderbar.o
+
+# target to build an object file
+resource/sliderbar/sliderbar.cpp.o:
+	$(MAKE) -f CMakeFiles/learnOpenCV.dir/build.make CMakeFiles/learnOpenCV.dir/resource/sliderbar/sliderbar.cpp.o
+.PHONY : resource/sliderbar/sliderbar.cpp.o
+
+resource/sliderbar/sliderbar.i: resource/sliderbar/sliderbar.cpp.i
+
+.PHONY : resource/sliderbar/sliderbar.i
+
+# target to preprocess a source file
+resource/sliderbar/sliderbar.cpp.i:
+	$(MAKE) -f CMakeFiles/learnOpenCV.dir/build.make CMakeFiles/learnOpenCV.dir/resource/sliderbar/sliderbar.cpp.i
+.PHONY : resource/sliderbar/sliderbar.cpp.i
+
+resource/sliderbar/sliderbar.s: resource/sliderbar/sliderbar.cpp.s
+
+.PHONY : resource/sliderbar/sliderbar.s
+
+# target to generate assembly for a file
+resource/sliderbar/sliderbar.cpp.s:
+	$(MAKE) -f CMakeFiles/learnOpenCV.dir/build.make CMakeFiles/learnOpenCV.dir/resource/sliderbar/sliderbar.cpp.s
+.PHONY : resource/sliderbar/sliderbar.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -159,9 +240,18 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... learnOpenCV"
+	@echo "... HighGui/HighGui.o"
+	@echo "... HighGui/HighGui.i"
+	@echo "... HighGui/HighGui.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... resource/mouseoperation/mouseoperation.o"
+	@echo "... resource/mouseoperation/mouseoperation.i"
+	@echo "... resource/mouseoperation/mouseoperation.s"
+	@echo "... resource/sliderbar/sliderbar.o"
+	@echo "... resource/sliderbar/sliderbar.i"
+	@echo "... resource/sliderbar/sliderbar.s"
 .PHONY : help
 
 

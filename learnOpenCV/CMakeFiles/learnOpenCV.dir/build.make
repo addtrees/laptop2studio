@@ -43,10 +43,10 @@ RM = /home/shen/Downloads/CLion/clion-2018.2.5/bin/cmake/linux/bin/cmake -E remo
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/shen/CLionProjects/learnOpenCV
+CMAKE_SOURCE_DIR = /home/shen/CLionProjects/learnopencv/learnOpenCV
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/shen/CLionProjects/learnOpenCV
+CMAKE_BINARY_DIR = /home/shen/CLionProjects/learnopencv/learnOpenCV
 
 # Include any dependencies generated for this target.
 include CMakeFiles/learnOpenCV.dir/depend.make
@@ -59,25 +59,70 @@ include CMakeFiles/learnOpenCV.dir/flags.make
 
 CMakeFiles/learnOpenCV.dir/main.cpp.o: CMakeFiles/learnOpenCV.dir/flags.make
 CMakeFiles/learnOpenCV.dir/main.cpp.o: main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shen/CLionProjects/learnOpenCV/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/learnOpenCV.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/learnOpenCV.dir/main.cpp.o -c /home/shen/CLionProjects/learnOpenCV/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shen/CLionProjects/learnopencv/learnOpenCV/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/learnOpenCV.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/learnOpenCV.dir/main.cpp.o -c /home/shen/CLionProjects/learnopencv/learnOpenCV/main.cpp
 
 CMakeFiles/learnOpenCV.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/learnOpenCV.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shen/CLionProjects/learnOpenCV/main.cpp > CMakeFiles/learnOpenCV.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shen/CLionProjects/learnopencv/learnOpenCV/main.cpp > CMakeFiles/learnOpenCV.dir/main.cpp.i
 
 CMakeFiles/learnOpenCV.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/learnOpenCV.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shen/CLionProjects/learnOpenCV/main.cpp -o CMakeFiles/learnOpenCV.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shen/CLionProjects/learnopencv/learnOpenCV/main.cpp -o CMakeFiles/learnOpenCV.dir/main.cpp.s
+
+CMakeFiles/learnOpenCV.dir/HighGui/HighGui.cpp.o: CMakeFiles/learnOpenCV.dir/flags.make
+CMakeFiles/learnOpenCV.dir/HighGui/HighGui.cpp.o: HighGui/HighGui.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shen/CLionProjects/learnopencv/learnOpenCV/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/learnOpenCV.dir/HighGui/HighGui.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/learnOpenCV.dir/HighGui/HighGui.cpp.o -c /home/shen/CLionProjects/learnopencv/learnOpenCV/HighGui/HighGui.cpp
+
+CMakeFiles/learnOpenCV.dir/HighGui/HighGui.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/learnOpenCV.dir/HighGui/HighGui.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shen/CLionProjects/learnopencv/learnOpenCV/HighGui/HighGui.cpp > CMakeFiles/learnOpenCV.dir/HighGui/HighGui.cpp.i
+
+CMakeFiles/learnOpenCV.dir/HighGui/HighGui.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/learnOpenCV.dir/HighGui/HighGui.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shen/CLionProjects/learnopencv/learnOpenCV/HighGui/HighGui.cpp -o CMakeFiles/learnOpenCV.dir/HighGui/HighGui.cpp.s
+
+CMakeFiles/learnOpenCV.dir/resource/sliderbar/sliderbar.cpp.o: CMakeFiles/learnOpenCV.dir/flags.make
+CMakeFiles/learnOpenCV.dir/resource/sliderbar/sliderbar.cpp.o: resource/sliderbar/sliderbar.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shen/CLionProjects/learnopencv/learnOpenCV/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/learnOpenCV.dir/resource/sliderbar/sliderbar.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/learnOpenCV.dir/resource/sliderbar/sliderbar.cpp.o -c /home/shen/CLionProjects/learnopencv/learnOpenCV/resource/sliderbar/sliderbar.cpp
+
+CMakeFiles/learnOpenCV.dir/resource/sliderbar/sliderbar.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/learnOpenCV.dir/resource/sliderbar/sliderbar.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shen/CLionProjects/learnopencv/learnOpenCV/resource/sliderbar/sliderbar.cpp > CMakeFiles/learnOpenCV.dir/resource/sliderbar/sliderbar.cpp.i
+
+CMakeFiles/learnOpenCV.dir/resource/sliderbar/sliderbar.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/learnOpenCV.dir/resource/sliderbar/sliderbar.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shen/CLionProjects/learnopencv/learnOpenCV/resource/sliderbar/sliderbar.cpp -o CMakeFiles/learnOpenCV.dir/resource/sliderbar/sliderbar.cpp.s
+
+CMakeFiles/learnOpenCV.dir/resource/mouseoperation/mouseoperation.cpp.o: CMakeFiles/learnOpenCV.dir/flags.make
+CMakeFiles/learnOpenCV.dir/resource/mouseoperation/mouseoperation.cpp.o: resource/mouseoperation/mouseoperation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shen/CLionProjects/learnopencv/learnOpenCV/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/learnOpenCV.dir/resource/mouseoperation/mouseoperation.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/learnOpenCV.dir/resource/mouseoperation/mouseoperation.cpp.o -c /home/shen/CLionProjects/learnopencv/learnOpenCV/resource/mouseoperation/mouseoperation.cpp
+
+CMakeFiles/learnOpenCV.dir/resource/mouseoperation/mouseoperation.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/learnOpenCV.dir/resource/mouseoperation/mouseoperation.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shen/CLionProjects/learnopencv/learnOpenCV/resource/mouseoperation/mouseoperation.cpp > CMakeFiles/learnOpenCV.dir/resource/mouseoperation/mouseoperation.cpp.i
+
+CMakeFiles/learnOpenCV.dir/resource/mouseoperation/mouseoperation.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/learnOpenCV.dir/resource/mouseoperation/mouseoperation.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shen/CLionProjects/learnopencv/learnOpenCV/resource/mouseoperation/mouseoperation.cpp -o CMakeFiles/learnOpenCV.dir/resource/mouseoperation/mouseoperation.cpp.s
 
 # Object files for target learnOpenCV
 learnOpenCV_OBJECTS = \
-"CMakeFiles/learnOpenCV.dir/main.cpp.o"
+"CMakeFiles/learnOpenCV.dir/main.cpp.o" \
+"CMakeFiles/learnOpenCV.dir/HighGui/HighGui.cpp.o" \
+"CMakeFiles/learnOpenCV.dir/resource/sliderbar/sliderbar.cpp.o" \
+"CMakeFiles/learnOpenCV.dir/resource/mouseoperation/mouseoperation.cpp.o"
 
 # External object files for target learnOpenCV
 learnOpenCV_EXTERNAL_OBJECTS =
 
 learnOpenCV: CMakeFiles/learnOpenCV.dir/main.cpp.o
+learnOpenCV: CMakeFiles/learnOpenCV.dir/HighGui/HighGui.cpp.o
+learnOpenCV: CMakeFiles/learnOpenCV.dir/resource/sliderbar/sliderbar.cpp.o
+learnOpenCV: CMakeFiles/learnOpenCV.dir/resource/mouseoperation/mouseoperation.cpp.o
 learnOpenCV: CMakeFiles/learnOpenCV.dir/build.make
 learnOpenCV: /usr/local/lib/libopencv_stitching.so.3.4.3
 learnOpenCV: /usr/local/lib/libopencv_dnn.so.3.4.3
@@ -97,7 +142,7 @@ learnOpenCV: /usr/local/lib/libopencv_imgcodecs.so.3.4.3
 learnOpenCV: /usr/local/lib/libopencv_imgproc.so.3.4.3
 learnOpenCV: /usr/local/lib/libopencv_core.so.3.4.3
 learnOpenCV: CMakeFiles/learnOpenCV.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/shen/CLionProjects/learnOpenCV/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable learnOpenCV"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/shen/CLionProjects/learnopencv/learnOpenCV/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable learnOpenCV"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/learnOpenCV.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -110,6 +155,6 @@ CMakeFiles/learnOpenCV.dir/clean:
 .PHONY : CMakeFiles/learnOpenCV.dir/clean
 
 CMakeFiles/learnOpenCV.dir/depend:
-	cd /home/shen/CLionProjects/learnOpenCV && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/shen/CLionProjects/learnOpenCV /home/shen/CLionProjects/learnOpenCV /home/shen/CLionProjects/learnOpenCV /home/shen/CLionProjects/learnOpenCV /home/shen/CLionProjects/learnOpenCV/CMakeFiles/learnOpenCV.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/shen/CLionProjects/learnopencv/learnOpenCV && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/shen/CLionProjects/learnopencv/learnOpenCV /home/shen/CLionProjects/learnopencv/learnOpenCV /home/shen/CLionProjects/learnopencv/learnOpenCV /home/shen/CLionProjects/learnopencv/learnOpenCV /home/shen/CLionProjects/learnopencv/learnOpenCV/CMakeFiles/learnOpenCV.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/learnOpenCV.dir/depend
 

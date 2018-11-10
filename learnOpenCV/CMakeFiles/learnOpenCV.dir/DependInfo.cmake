@@ -4,7 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/shen/CLionProjects/learnOpenCV/main.cpp" "/home/shen/CLionProjects/learnOpenCV/CMakeFiles/learnOpenCV.dir/main.cpp.o"
+  "/home/shen/CLionProjects/learnopencv/learnOpenCV/HighGui/HighGui.cpp" "/home/shen/CLionProjects/learnopencv/learnOpenCV/CMakeFiles/learnOpenCV.dir/HighGui/HighGui.cpp.o"
+  "/home/shen/CLionProjects/learnopencv/learnOpenCV/main.cpp" "/home/shen/CLionProjects/learnopencv/learnOpenCV/CMakeFiles/learnOpenCV.dir/main.cpp.o"
+  "/home/shen/CLionProjects/learnopencv/learnOpenCV/resource/mouseoperation/mouseoperation.cpp" "/home/shen/CLionProjects/learnopencv/learnOpenCV/CMakeFiles/learnOpenCV.dir/resource/mouseoperation/mouseoperation.cpp.o"
+  "/home/shen/CLionProjects/learnopencv/learnOpenCV/resource/sliderbar/sliderbar.cpp" "/home/shen/CLionProjects/learnopencv/learnOpenCV/CMakeFiles/learnOpenCV.dir/resource/sliderbar/sliderbar.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

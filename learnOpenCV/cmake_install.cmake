@@ -1,4 +1,4 @@
-# Install script for directory: /home/shen/CLionProjects/learnOpenCV
+# Install script for directory: /home/shen/CLionProjects/learnopencv/learnOpenCV
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/shen/CLionProjects/learnOpenCV/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/shen/CLionProjects/learnopencv/learnOpenCV/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
